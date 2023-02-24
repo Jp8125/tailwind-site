@@ -9,63 +9,68 @@
     <script type="module" src="script.js"></script>
   </head>
   <body class="bg-gray-500">
-    <div class="container mx-auto">
-      <nav class="py-2 bg-gray-800 text-white block sm:flex justify-between">
-        <div class="flex justify-between">
-          <img
-            class="w-10"
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ0AAACdCAMAAACZ+IrkAAAAsVBMVEX8/vwEXqwEXKz///4AWqsAWKsAVKoAVqr0+fqqzeYAW64AT6kFabEAUqkAUKj2+v9+sNnp8/ZHjMZEg8RspNJUkMWxz+YAZbLQ5PMEYbKx1OxsodLZ6fNSicByoc/E2usxfsBcmMukxeKZv94pd7yMvdyOjI6FtdgicrtHhcCEq9W91OmSut/C3uvo8vx2qM8ASKfq6u62t7atqq3P0dR3eHfY3eCWl5VqamrBw8GhoqG8LlDPAAAJuklEQVR4nO1Ze3+bOhI1eiAhgw0YENjEPB3j2LG3r+32fv8PtjPCcdy9SdvcuPfuHzppf41rGB3N48wgJhMLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLC4vfBfpT/DOcJlJGUVlWe6/twoekadIYsIsNmmb1sG3brMrLKIrk5G9iibzmEXDKuod1uusHrQtSaD0Mdb3Y3SF2dV33g68JUY72+zpdh11WlUf5WymaOJWP3nadLnpfTYOZ8Ou4eTh0XravqirPyxF5Dp/2Wbt5aOJBB9NpQPSwSJOtV/4WhmhSHpfbZjdo4gbTQA9xcsgey+MRXPLqbTI6Qug3STwod+ZyUgx1cygjsHdLahDJblX7RLizQOnFKvSqSM5/LZlMgpbLw6ou3IAzIXSdZGV0GxdCLPfdeqcZ52Imit2p3ZdSvtkK+DHPTjvlCkI4U/26Ld/rQPDN0VstfMJhz9OpTtuqfDOxK8hj1qgpJw7nnNTJ4zv8RydRuanV1GWMM7eoT8vo/RkNSXLoFXMch7FZUHvRXzQj8+6umLnEIUyQxUN2o0TBTGlAaYjDHCJ47EVvNgsBbdeDK8we3SLN3p0j18bLHSPwA7Zh4yrJ33j7JA97LiB9iSO4TnJ5UwGQseswrQUjyI+IoXtLKkdVQ6aug27jqt6Wt1bPxCWs8B5r4WBwYRE3Of7irTTKGu0yuM9RhPeHW4Z0RAsNbhZKmg+GnuF3Kn+Jm6wMN2LyDWJ6c2606jkLFtBeqKeJUxCkR4pw/gv35okOmNmRYmpX/YaGmO+4I+ocLcuQgfIZdRG6/emdUVcLjoUEf3i/fSr1vOv25peoaquLPh1OlfkKYiKzbfscGlm1+3Oa5xleL/eHw7YdU2veMMKH7Px1zR1WMIKx3ZU/cUV50rAX42rl7rJzb6dVTVRf4bJtT/rTaIVWYtrIY6pUU1LPF0VTPZHr+kJn5qJsofutnBybKeNFg8IhNyAlpDublitUUyhbB8vkh+xolTp85OYQXj/5gkZgm7kr8MGx4Yyp5ohm6HLmLmSmGPOzeTJjRKXnzbcgFf9KqMkwlwu9pPMwYJAoaU7pcuDEbZ78Lw8uIYUCaS6U+GHm0awP2EhNMbI60osFiLWDwaBR6qI8hZFhJ5AdAXbePMHi46mJXTaAhM+QHV7uKNFEcCMkP3MX+b7mhMcX25MOc8hR0NSuOL8Aua/F6GWsiOY5iyrIDVBlkuAiSJTpw9ywg8LLwDiyQ3FkBHZPyxjFaArsaKdQbmFflOYpRM9x4xijsnxetWNYEk4BLvkhu2qHK6OQOFhSz6zX2HSARF0hO1NffXZhB5sGdisj3dxv5SRBGug7etSQ8uAbtYLqqna4d7id6+vGEELTMJElxD292jCgL6sx56AglM6ev9g7nAwDejWcoO9gRSMI58iyc2Qh/2Aqqpethsx00HdyNSOsB0Xj/f4pNMBPba9cFKX4n7jjgjntq1VBD8o4CK/jbHXJTxotAqI2W9AkqBNkp9FLQVzSpes+RVZC3mmNUewHRmArznRFPXDcsIxdqJcECS17NC+Ga+HY+0b34RLG6tcV5Qg9b8w6yLvh2XUScofvoqoXYOJwBHbJDnxDWBItA3GJbAKC0mBIIefrRmPelXfwVSjbAgz2qOpyqxkOTeFzS41WKPzELKq3r08CS4UXoecgEneXkqB5L2B1GiWwlIgrYLfxBq4we64iC7KlQkhchgXRdYbdlhiBLXcCnQc1IpMCQ8P1JbQU08BMKXBt+voYJbczk3NMYdoll8yQa8jjE3yE3gi1GqZMd3PPJxihhrhXNctDul8IooImygrMTNA130PnQ8tnfk7lFvsPjuym5M3WcQoApcNCW+xfJTeJkilyM7XDVPjkY5rB5nSy2Wy2GHm1qxVU3HwLxYipLC5VsRIqpJN9zznUi6exUOHJpoYbNwmkFpicg8uJEw8cW+rGWM93rjOmkxL1fvLh46dPn1/2nWFnsg7E7sJOLqCOVVE4Y+slDmQ+NKHooUAJZMgOEm2sWWA3WZ5OFR3ZoXyoghRFgb2R7zYx7CPNQ/yOo1Mn1Z2ZNqBVOKr3Jh8+fbm///Lvl9jNt7NxEIS8U2x9Zke7KfhTF/CjIbkLyD1m1KpsjPqKS2Qx78zQAV9Sz7R1wvXgG6BZPaAMg2Ka5MPfqgUbWzrsElr65PPXr/f3Xz99eIneo0IdKxQmntjlT3nBmc5yg7LzMUkc3SKBY4wPHN/pXfikByglRrKrsiwf4W/IYY/gY6PhxxXsUYk+1MK4QxFRJKAl8uOnP/5z/+3ri+xgOdxGYVThPGphSYhEng+5jmsiGAtqM4nQx1gIPkvlsuAcp4CAP7OrBqgOnNfOd+a1CwER52I4psIE3nQwcCjfdaZtf77/+u2PLx9flBUobm4ahdnNOGqBVPKrllYmmrtDexbqfKVxMChjN4DZ5MCL7qKl8qSC6wcZ2Q2uK/T2rHP5Wo/TOg4AgX+qxmlKfvzyx/2XV1rtPCzIucvCtLEC0xE0XtVd+7fq2vyyZlRl+KFsPVDH43J5ZXeewYVXwi/z9tBWT8ks24HgwRkmbpHuL21p/vnbtw+vtYtoW/BCqQJGVbjtIaKhIEH63V6+P8UcP9DJ+M93ZukLn+nTplJtGqYDk99qGf3J4Gv0wkKwwgyqMDeEeygJ98bPFfSYrXyB/YG4wbDO3nIIMO/6qRq1GzR4UM5sdUtyeLoQw5MBmp9N/W31xgMUmieFCz1eoQEYeoefPYe8wTQ8Cq0GhuMhgwppvOPbn0SpzFIdjA+YYKZvb3OuQ6GgDgsFT3tECHdID288N3k2FGUNCbCnmpq66957SoFKmW3vtBDQEwLXTzuI6DtMyirxg4BjYRGhhtXyr55CjyfgbdIXXDAhphjQ8t3HRZRKr6k1TGsQCobnnVkZ/eDc+kVeE4kHzY0f/Gvqcq78RbPJb/XGAvacPex84gJFxmfCv3to9yWG5Cfm8QIalXnWPqQDn05nLtf93bqrysktD7LAgbBGsvAhC0H4ApcMi+bUeXkp5ZzS/337hNcDjnnVHh7wnYGYTaeiGOIEdyV/xysU84Ki2q5gMQix64IrhB7qXZOEmzbbV+P0klf7vbfZhqsm7getZsFMwDNQHzehl0dyctMXE3+miFWXZ124buJFPehCQcAAs9k0COAf+BMg3EAVfl/HzTrsvCqP/sa3d7gSpHn5iC+XukN4Wq/XzRnw6yncHlrjzTKK5D/4VnF8sYiIzhg/yck/9a7TwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLi/wX/Ba1ZwLlhYnr6AAAAAElFTkSuQmCC"
-            alt=""
-          />
-          <div
-            class="cursior-pointer px-2 sm:hidden flex items-center"
-            id="icon"
-          >
-            <svg
-              class="w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-list"
-              viewBox="0 0 16 16"
+    <header>
+      <div class="container mx-auto">
+        <nav class="py-2 bg-gray-800 text-white block sm:flex justify-between">
+          <div class="flex justify-between">
+            <img
+              class="w-10"
+              src="data:image/png;base64,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"
+              alt=""
+            />
+            <div
+              class="cursior-pointer px-2 sm:hidden flex items-center"
+              id="icon"
             >
-              <path
-                fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
+              <svg
+                class="w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </div>
           </div>
-        </div>
-
-        <ul id="navb" class="hidden sm:flex">
-          <li
-            class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
-          >
-            Home
-          </li>
-          <li
-            class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
-          >
-            Character
-          </li>
-          <li
-            class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
-          >
-            Genre
-          </li>
-          <li
-            class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
-          >
-            Login
-          </li>
-          <li
-            class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
-          >
-            My List
-          </li>
-        </ul>
-      </nav>
+  
+          <ul id="navb" class="hidden sm:flex">
+            <li
+              class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
+            >
+              Home
+            </li>
+            <li
+              class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
+            >
+              Character
+            </li>
+            <li
+              class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
+            >
+              Genre
+            </li>
+            <li
+              class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
+            >
+              Login
+            </li>
+            <li
+              class="mx-2 hover:cursor-pointer hover:bg-gray-300 hover:text-black"
+            >
+              My List
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container mx-auto">
+     
     </div>
     <div
       class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
